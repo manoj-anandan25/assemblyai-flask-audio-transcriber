@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Transcription</title>
+</head>
+<body>
+    <h2>Upload an MP3/WAV file to Transcribe</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".mp3,.wav" required>
+        <button type="submit">Upload & Transcribe</button>
+    </form>
+
+    {% if transcript %}
+        <h3>Transcription Result:</h3>
+        <p>{{ transcript }}</p>
+    {% endif %}
+</body>
+</html>
