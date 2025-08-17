@@ -92,18 +92,12 @@ print("Transcript:", text)
 
 ---
 
-##📺 Demo Video
+## Demo Video
 
 👉 You can watch a step-by-step setup & execution video here:
 🔗 [AssemblyAI Flask Transcriber Demo (YouTube)](https://youtu.be/a0py8Ps__y4)
 
 ---
-## 🖼️ Output
-
-Here is an example of the transcription result after uploading an MP3/WAV file:
-
-![App Output](<img width="1530" height="903" alt="image" src="https://github.com/user-attachments/assets/915fff4e-d041-430f-a3b6-05c42ca2d0bb" />)
-
 
 ✅ With this setup, even a **non-technical user** can:
 
