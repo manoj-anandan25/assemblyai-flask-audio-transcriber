@@ -1,5 +1,5 @@
 
-# 🎙 AssemblyAI Flask Audio Transcriber
+# AssemblyAI Flask Audio Transcriber
 
 A simple **Flask web app** that allows users to upload an `.mp3` or `.wav` file and get the **transcribed text** using the **AssemblyAI API**.  
 
@@ -29,19 +29,19 @@ assemblyai-flask-audio-transcriber/
 
 ## Installation
 
-### 1️⃣ Clone the repo
+### 1️. Clone the repo
 ```bash
 git clone https://github.com/your-username/assemblyai-flask-audio-transcriber.git
 cd assemblyai-flask-audio-transcriber
 ````
 
-### 2️⃣ Install dependencies
+### 2️. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add your API Key
+### 3️. Add your API Key
 
 Open `app.py` and replace:
 
@@ -99,10 +99,3 @@ print("Transcript:", text)
 
 ---
 
-✅ With this setup, even a **non-technical user** can:
-
-* Install → Run → Upload audio → Get transcription
-* Watch the YouTube demo for execution
-* Developers can directly use `sdk.py`
-
----
